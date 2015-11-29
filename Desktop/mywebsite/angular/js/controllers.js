@@ -1,0 +1,26 @@
+var myApp= angular.module('myApp', []);
+
+myApp.controller('MyController', function MyController($scope){
+  $scope.artists=
+    [
+{
+  "name":"Coconut bread",
+  "type":"Breads",
+  "description":"This Honduran staple, known as pan de coco, is like a plump dinner roll. It's delicious served alongside a meal of rice, beans and fried plantains. Or enjoy it with ..."
+},
+{
+  "name":"Biryani",
+  "type":"dinner",
+  "description":"Biriyani or Biriani, is a mixed rice dish from the Indian Subcontinent. It is made with spices, rice and meat or vegetables."
+},
+{
+  "name":"Chicken Pasta",
+  "type":"dinner",
+  "description":"This pasta dish incorporates some of the flavors of Greece. It makes a wonderfully complete and satisfying meal. For extra flavor, toss in a few kalamata olives. Use whatever pasta you have or prefer."
+}
+
+
+]
+
+
+})
